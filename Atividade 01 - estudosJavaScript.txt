@@ -1,0 +1,107 @@
+Você deverá criar um novo repositório público no git (github, bitbucket ou gitlab) cuja descrição contenha no mínimo o texto conforme descrito logo abaixo. O repositório deverá conter o README.md e o LICENSE (Creative Commons), não precisa criar o ".gitignore".
+
+Nome: estudosJavaScript
+Descrição: Este repositório contém códigos desenvolvidos durante meus estudos sobre JavaScript.
+
+------------------------------------------------------------
+
+Clone o repositório para sua máquina.
+
+Abra o diretório criado pelo VSCode
+
+------------------------------------------------------------
+
+No repositório clonado em seu computador, edite o arquivo README.md para que reflita a seguinte estrutura básica:
+
+# estudosJavaScript
+
+Este repositório contém código malicioso
+
+## Tipos de dados
+
+* Null
+* Undefined
+* Boolean
+* Number
+* BigInt
+* String
+* Symbol
+
+## Operadores
+
+## Palavras reservadas
+
+## Estruturas de decisão e controle
+
+## Estruturas de repetição, looping
+
+## Built-in functions
+
+------------------------------------------------------------
+
+Você deverá atualizar esse arquivo README.md com informações que julgar importantes para seus estudos de Java Script.
+Busque na internet por modelos ou templates de arquivo README, lembre-se que esse arquivo é a vitrine de seu repositório.
+
+A idéia é utilizar esse arquivo README como um bloco de anotações e consultas sobre a linguagem.
+Quanto mais dados relevantes, melhor.
+Pesquisa, ou use a biblioteca de referência da linguagem, sobre os tópicos abordados no arquivo README.
+
+------------------------------------------------------------
+
+No repositório clonado em seu computador, crie a estrutura de pastas a seguir, siga os nomes conforme escritos:
+
+1-EstruturaSequencial
+2-EstruturaDeDecisao
+3-EstruturaDeRepeticao
+4-ExerciciosListas
+5-ExerciciosFuncoes
+6-ExerciciosComStrings
+7-ExerciciosArquivos
+8-ExerciciosClasses
+9-ListaDeExerciciosProjetos
+Listas Python Brasil
+
+------------------------------------------------------------
+
+Adicione todos os 9 arquivos "pdf" da Lista Python para a pasta de nome "Listas Python Brasil".
+
+Com o repositório no VSCode abra o terminal integrado e envie essas alterações para o repositório git online através dos comandos abaixo:
+    git add .
+    git commit -m "Listas Python Brasil"
+    git push origin main
+
+Acesse seu repositório online e verifique como ficaram as alterações.
+
+------------------------------------------------------------
+
+Volte para o VSCode com o repositório aberto e crie um arquivo vazio, de nome ".gitkeep" dentro das outras 9 pastas.
+
+Com o repositório no VSCode abra o terminal integrado e envie essas alterações para o repositório git online através dos comandos abaixo:
+    git add .
+    git commit -m "Estrutura de pastas inicial"
+    git push origin main
+
+Acesse seu repositório online e verifique como ficaram as alterações.
+
+------------------------------------------------------------
+
+Volte para o VSCode e inicie a resolução das listas.
+
+Crie um arquivo de nome "01.js" dentro da pasta "1-EstruturaSequencial", e neste arquivo escreva o código de resolução para o primeiro exercício da primeira lista.
+
+Para testar seu código, abra o terminal do VSCode, entre na pasta da respectiva lista e use o node para executar o arquivo:
+    cd 1-EstruturaSequencial
+    node 01.js
+
+------------------------------------------------------------
+
+Após finalizar suas codificações, envie seus arquivos para o repositório git online.
+
+Mas siga essas regras:
+    Quando for enviar os códigos, defina a mensagem de commit da seguinte forma:
+        Se os códigos forem da primeira lista: "Resolução 1-EstruturaSequencial"
+        Se os códigos forem da segunda lista: "Resolução 2-EstruturaDeDecisao"
+        E assim por diante.
+
+------------------------------------------------------------
+
